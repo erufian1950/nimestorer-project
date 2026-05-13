@@ -1,0 +1,9 @@
+<h1>Toko Anime</h1>
+
+{% for product in products %}
+<div>
+  <h1>Selamat datang di toko anime!</h1>
+  <h3>{{ product.name }}</h3>
+  <p>Rp {{ product.price }}</p>
+</div>
+{% endfor %}
